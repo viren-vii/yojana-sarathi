@@ -34,4 +34,4 @@ ERD for the project is:
 
 # Ending note
 
-Refer to [meta developers platform](https://github.com/viren-vii/yojana-sarathi/blob/main/PAVVVFECT_ABSTRACT.pdf) and [meta developers platform](https://github.com/viren-vii/yojana-sarathi/blob/main/PAVVVFECT_PPT.pdf) for more details on statistics and impact of the project.
+Refer to [abstract](https://github.com/viren-vii/yojana-sarathi/blob/main/PAVVVFECT_ABSTRACT.pdf) and [presentation](https://github.com/viren-vii/yojana-sarathi/blob/main/PAVVVFECT_PPT.pdf) for more details on statistics and impact of the project.
