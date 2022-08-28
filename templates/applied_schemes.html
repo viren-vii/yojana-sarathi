@@ -1,0 +1,28 @@
+{% extends 'row.html' %} {% block content %} {% for row in data %}
+<tr>
+  <td>{{row['name']}}</td>
+  <td>{{row['applied_scheme']}}</td>
+  <td>{{row['age']}}</td>
+  <td>{{row['gender']}}</td>
+  <td>{{row['category']}}</td>
+  <td>{{row['income']}}</td>
+  <td>
+    <form method="POST">
+      <input
+        type="submit"
+        id="{{row['applied_scheme_id']}}"
+        name="open+{{row['applied_scheme_id']}}+A"
+        value="ACCEPT"
+      />
+      <input
+        type="submit"
+        id="{{row['applied_scheme_id']}}"
+        name="close+{{row['applied_scheme_id']}}+R"
+        value="REJECT"
+      />
+    </form>
+
+    {{row['applied_scheme_status']}}
+  </td>
+</tr>
+{% endfor %} {% endblock %}
